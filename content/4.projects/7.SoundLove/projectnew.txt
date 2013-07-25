@@ -1,14 +1,18 @@
 title: SoundLove
 -
+tags: Product and Interaction Design (Concept)
+-
+materials:Ratchet, X-mini speaker, Tap-light and laser cut wood and acrylic
+-
 subtitle: A music sharing app and device for couples.
 -
 date: Mar 2013 
 -
 content: 
-When did apps become the sole distribution method for music? What happened to mixtapes, cover art and all kinds of physical artefacts that were not just useful but also emotional?
+*When did apps become the sole distribution method for music? What happened to mixtapes, cover art and all kinds of physical artefacts that were not just useful but also emotional?*
 
-SoundLove is a concept that explores that idea. There is a possibility of creating new kind of musical devices that speak to the cloud and serve unique purposes. 
+SoundLove is a concept that explores that idea. There is a possibility of creating new genre of music devices. 
 
-SoundLove makes sharing of music between a couple fun and physical experience. An app lets one person send a song to a physical player. The other person owns a SoundLove device that lights up to show that someone has sent them music. they don't know what song it is, so the act of turning off the light is anticipation and surprise. 
+SoundLove would make sharing of music between a couple fun and tangible experience. An app lets one person send a song to the other person's SoundLove device. The device would light up to show that someone has sent them music. They don't know what song it is, so the act of turning off the light to hear the song is full of anticipation and surprise. 
 
-They can also just tap their phone to the device and it becomes a part of their phone music collection. SoundLove stores the last 10 sent songs. 
+They can also just tap their phone to the device and it becomes a part of their phone music collection. This was product concept and Wizard of Oz prototype created for the class "Designing Media that Matters" at the Stanford d.school.

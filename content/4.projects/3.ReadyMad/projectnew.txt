@@ -4,27 +4,31 @@ subtitle: A marketplace for Indian kitsch
 -
 date: Mar-Jun 2011 
 -
+tags: Entrepreneurship, Service Design
+-
+team: Animesh Jain, Nishant Kyal, Ankit Khanna
+-
 content: 
-ReadyMad emerged from my love of all things Indian pop culture. There are many companies in India has make 'India inspired' home and lifestyle products (like Happily Unmarried and Chumbak) that sell their products through physical aggregator stores or lone brand stores. I felt that there was no compelling online platform for selling these kind of products.
+*ReadyMad is a curated marketplace for home and lifestyle products inspired by Indian pop culture.*
 
-ReadyMad was a first iteration of such a platform. A bit like the Etsy of India, ReadyMad was to bring a curated selection of products and new ways of product browsing and discovery.
+There are many companies in India that make such products (like [Happily Unmarried](http://www.happilyunmarried.com/) and [Chumbak](http://chumbak.com/chumbak/)). At the time (early 2011), these companies usually sold their products through physical aggregator stores or lone brand stores. I felt that there was no compelling online platform to aggregate and sell these products. So, I created ReadyMad as a sister business to iTasveer.com
 
-However, ReadyMad was launched as a sister business to iTasveer.com and could have been spin off as a separate brand, but was sold as part of iTasveer.
+However, because it was built on top of the existing iTasveer.com backend and infrastructure, it was sold as part of iTasveer.
+
+I was responsible for the branding, user experience and front end engineering and setting up vendor relationships.
 -
 backstory:
-###Not now to then when? 
-Since we were focused exclusively on photo products, this as a side project always seemed like a diversion. It was one of those ideas that I had filed away as something to be done in the future. But when our company had no exit but had to be sold, I had to create alternatives to shutting it down. 
+##Sometimes, it is easier than you think 
+Since iTasveer.com was focused exclusively on photo products, this as a side project always seemed like a diversion. It was one of those ideas that I had filed away as something to be done in the future. But when our company had to choose between either being sold or shut down, I had to create new alternatives. 
 
-And so, ReadyMad started. I was amazed at how quickly you can get things together if you step out of your own way. It took all of two weeks to reach out to vendors, who were willing to work with us because of iTasveer's brand, and create the front-end using the existing e-commerce and logistics architecture. A favorite part for me was creating a user experience that reflected the personality of the website and this video was made to capture this:
+And so, ReadyMad started. I was amazed at how quickly you can get things together if you step out of your own way. It took all of two weeks to reach out to vendors, who were willing to work with us because of iTasveer's brand, and create the front-end using the existing e-commerce and logistics architecture. 
 
-http://www.youtube.com/watch?v=btiQak0MMoQ
+I was also keen on experimenting with new and fun ways of browsing products, instead of the gallery style format that still constitutes most e-commerce sites. [Here's a video showcasing a 'shuffle' feature](http://www.youtube.com/watch?v=btiQak0MMoQ) that was implemented on the site. 
 
-The project was launched as a side project to iTasveer.com. Since this was more of a personal project, I was responsible for everything from setting up vendor relationships, designing and coding the web pages to initial launch and marketing. Also, because it was built on iTasveer's e-commerce and logistics infrastructure, I could do all of that in a mere 10 days.
 
-The website still exists, but is currently owned and maintained by a different set of owners.
 
-Learnings
+<!--Learnings
 
 Don't reinvent the wheel
 
-It takes shorter than you think it does
+It takes shorter than you think it does-->

@@ -1,30 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script type="text/javascript" src="//use.typekit.net/ovr0odw.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-  <title>@title, @name's Portfolio </title>
-  <!--Embed Google Fonts-->
-  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <!--JQuery CDN-->
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
-  <script src="@root_path/public/docs/js/jquery.tools.min.js"></script>
-  <script src="@root_path/public/docs/js/jquery.tinycarousel.min.js"></script>
-  <link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
-  
-  <link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="@root_path/public/docs/css/customnew.css" type="text/css" media="screen">
+  :header
   <style>
     .nav{display: none; position: fixed; top: 0; left: 0; z-index: 50;}
     .miniNav{height: 30px; padding: 10px 0 6px; text-align: center; width: 50px; display: block; background: rgba(0,0,0,0.7); position: fixed; z-index: 10; /*border-right:1px solid white; border-bottom: 1px solid white;*/}
-    #nav_link{}
     #close_link{position: fixed; left: 200px; top:0px; display: none; z-index: 60;}
   </style>
   <script type="text/javascript">
   $(document).ready(function(){
+        //Hack to hide non titles in image slideshow (Stacey converts everything to text)
+        $('.img_title').each(function(){
+          if (parseInt($(this).text())){ $(this).hide();}
+        })
         // initialize scrollable
         //$(".scrollable").scrollable();
         $('#nav_link').click(function(){
@@ -84,6 +72,7 @@
   </script>
 </head>
 <body>
+  <!--NAVIGATION OPEN/CLOSE BUTTON-->
 <a href="#" class="miniNav" id="nav_link"><img src="@root_path/public/images/menu.png" width="25"/></a>
 <a href="#" class="miniNav" id="close_link"><img src="@root_path/public/images/close.png" width="25"/></a>
 <div class="overlay"></div>
@@ -91,8 +80,10 @@
   :navigation-new
   <!--HEADER-->
   if $html do
+    <!-- USE VIDEO LINK IF AVAILABLE-->
     :html
   endif
+  <!-- ELSE USE HEADER IMAGE AVAILABLE-->
   if !$html do
     if $_header do
       foreach $_header do
@@ -110,7 +101,7 @@
     <div class="titles">
     <h1>@title</h1>
     <h2>@subtitle</h2>
-    if @date do <h5>@date</h5> endif
+    if @date do <h5>@date</h5> endif if @tags do <h5>@tags</h5> endif
   </div>
     <div class="row">
       <div class="span8 offset2">
@@ -163,8 +154,8 @@
             <div class="thumb">
               <div class="container" style="text-align:center;">
               <img src="@url" alt="@title" height="600">
-                if @description do
-                <br/><em>@description</em>      
+              if @name do
+                <p class="img_title"><span>@name</span></p>
               endif
             </div>
             </div>
@@ -178,10 +169,10 @@
 
    <div class="container">
     <div class="row">
-      <div class="span4 offset4">
+      <div class="span8 offset2">
         <div class="meta">  
-          if @materials do <div><h5>How</h5> <p>@materials</p></div> endif
-          if @team do <div><h5>Who</h5> <p>@team</p></div> endif
+          if @materials do <div><h5>Materials</h5> @materials</div> endif
+          if @team do <div><h5>Teammates</h5> @team</div> endif
         </div> 
       </div>
     </div>

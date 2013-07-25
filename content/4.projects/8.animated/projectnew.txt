@@ -8,7 +8,7 @@ materials: Processing, Arduino, Javascript, Wood, Webcam, LASERCAMM.
 -
 team: Solo project
 -
-tags: Experience design
+tags: Art, Experience design
 -
 date: Dec 2012
 -
@@ -18,3 +18,10 @@ content:
 I love that it inhabits the unusual space between a photograph and video, but one with its own unique personality, truly capturing a moment ‘stuck’ in time.
 
 ‘Animated’ was an attempt to get this new form of expression out of our phone and computer screens and out onto walls, while capturing people stuck in a fun moment. Installed at the annual 'Personal Statements' event at the Stanford Design Program.
+-
+backstory:
+##Experiment with your materials
+
+&nbsp;
+
+This project made me realize that nothing you do goes to waste, or as Michael Dearing says, *prototyping is not waste but compost*. I was experimenting with a lot of things which eventually led to Animated. I was playing with Processing for the first time (which then became the method through which I captured the webcam images and routed them to a webpage), I was coming up with video installation ideas (which then turned into the animated .gif), I was considering making a mirror inspired by the work of Daniel Rozin (which became a photo booth) and I was playing with the Kinect, which didn't become a part of the installation directly, but the theatrical aspect of gesturing in front of the Kinect inspired the 'stage' where people got their photos clicked, instead of a more traditional photo booth.
