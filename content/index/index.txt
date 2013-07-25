@@ -11,8 +11,7 @@ I recently graduated from Stanford University with an MS in Product Design. Befo
 
 On the left are links to some of my work.
 
-[Resume (PDF)](?/resume) &nbsp;&nbsp; [E-mail](mailto:goel.ashish@gmail.com)
-
+*[Resume (PDF)](@root_path/public/docs/ashish_goel_jun2013.pdf) &nbsp;&nbsp;&nbsp; [E-mail](mailto:goel.ashish@gmail.com) &nbsp;&nbsp;&nbsp; [@ashpodel](http://www.twitter.com/ashpodel)*
 
 
 

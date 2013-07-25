@@ -9,7 +9,7 @@ tags: Entrepreneurship, Service Design
 team: Animesh Jain, Nishant Kyal, Ankit Khanna
 -
 content: 
-*ReadyMad is a curated marketplace for home and lifestyle products inspired by Indian pop culture.*
+*ReadyMad is a curated marketplace for home & lifestyle products inspired by Indian pop culture.*
 
 There are many companies in India that make such products (like [Happily Unmarried](http://www.happilyunmarried.com/) and [Chumbak](http://chumbak.com/chumbak/)). At the time (early 2011), these companies usually sold their products through physical aggregator stores or lone brand stores. I felt that there was no compelling online platform to aggregate and sell these products. So, I created ReadyMad as a sister business to iTasveer.com
 
@@ -19,9 +19,12 @@ I was responsible for the branding, user experience and front end engineering an
 -
 backstory:
 ##Sometimes, it is easier than you think 
-Since iTasveer.com was focused exclusively on photo products, this as a side project always seemed like a diversion. It was one of those ideas that I had filed away as something to be done in the future. But when our company had to choose between either being sold or shut down, I had to create new alternatives. 
 
-And so, ReadyMad started. I was amazed at how quickly you can get things together if you step out of your own way. It took all of two weeks to reach out to vendors, who were willing to work with us because of iTasveer's brand, and create the front-end using the existing e-commerce and logistics architecture. 
+&nbsp;
+
+Since iTasveer.com was focused exclusively on photo products, this as a side project always seemed like a diversion. It was one of those ideas that I had filed away as something to be done in the future. But faced with the choice of shutting down in case we would not have found a buyer, I had to create new alternatives. 
+
+And so, ReadyMad started. I was amazed at how quickly you can get things together if you step out of your own way. It took all of two weeks to reach out to the aforementioned companies, who were willing to work with us because of iTasveer's brand, and create the front-end using the existing e-commerce and logistics architecture. 
 
 I was also keen on experimenting with new and fun ways of browsing products, instead of the gallery style format that still constitutes most e-commerce sites. [Here's a video showcasing a 'shuffle' feature](http://www.youtube.com/watch?v=btiQak0MMoQ) that was implemented on the site. 
 

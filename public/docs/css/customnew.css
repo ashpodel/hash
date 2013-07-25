@@ -6,7 +6,7 @@ body.index{background: url('../../images/side_bg.gif') repeat-y;} /*For menu sid
 
 h1, h2, h3, h5{font-family:'brandon-grotesque', 'Helvetica'}
 h1{text-transform: uppercase; color: #00A3D9; font-size: 2.5em; line-height: 1em; text-align: center;}
-h2{color:#666; text-transform: none; font-weight: normal; line-height: 1em; text-align: center; font-size: 1.8em;}
+h2{color:#666; text-transform: none; font-weight: normal; text-align: center; font-size: 1.8em;}
 h5{text-transform: uppercase; color: #999; padding:3px; background:#f1f1f1; margin-right: 10px; text-align: center; display: inline-block;}
 
 /*====META*====*/
@@ -44,7 +44,7 @@ a.browse:down{text-decoration: none; color: white; background: #333;}
 .browse.hidden{display: none;}
 
 .thumb{position: relative; text-align: center;}
-.slidebox{max-width:1100px; margin:auto; position:relative;}
+.slidebox{max-width:1200px; margin:auto; position:relative;}
 /*========SCROLLABLE/GALLERY END==============*/
 
 
@@ -53,7 +53,7 @@ a.browse:down{text-decoration: none; color: white; background: #333;}
 .nav{float:left; width: 199px; background:#f1f1f1;/*#00a3d9, #e5e8e9*/ margin-right: 30px; height: 100%; border-right:1px solid #cccccc;}
 .projects{margin: 0; padding: 0}
 .projects li{list-style: none; line-height: 2em; margin: 0; padding: 0;}
-.projects li a{text-decoration: none; padding: 15px 20px; display: block; line-height: 1.3em}
+.projects li a{text-decoration: none; padding: 15px 20px; display: block; line-height: 1.3em;}
 .projects li a:hover{text-decoration: none; background: white;}
 .projects li .subtitle, .next_project .subtitle{display: block; color: #333; font-style: italic; font-size: 0.9em;}
 .projects li .title, .next_project .title{display: block; color: #00A3D9;  font-size: 1.2em; font-family:'brandon-grotesque', 'Helvetica'; text-transform: uppercase;}
@@ -76,6 +76,7 @@ a.logo:hover{background: white}
 .next_project .thumb{width: 400px; height: 100px; float: left;}
 .next_project a:hover{text-decoration: none; opacity: 1;}
 /*BOTTOM NAVIGATION END*/
+body.index em a{font-family:'brandon-grotesque', 'Helvetica'; text-transform: uppercase; font-style: normal; font-size: 0.8em;d }
 
 
 /* T+L Style Nav

@@ -11,7 +11,7 @@ team: Solo project
 materials: Laser cut Wood, Teensyduino, Off-the-shelf components
 -
 content: 
-*My long standing dream to build my own MP3 player was finally realized.* 
+*My long standing dream to build my own MP3 player was realized with the d.Boombox.* 
 
 d.Boombox is a music player specially designed for conducting Design Thinking workshops ([here's an example](http://dschool.stanford.edu/dgift/)). In such a workshop, music is used to set the mood when the workshop audience is working (usually mellow or fast) and a gong is sounded to mark the end of an activity. d.Boombox incorporated these features by using two folders to store songs, controlled via a knob, and a dedicated button to sound the gong. This was created for 'Interactive Device Design' class at Stanford.
 
