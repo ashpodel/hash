@@ -1,0 +1,17 @@
+title: iTasveer.com
+- 
+subtitle: The startup bug.
+-
+date: Apr 2006-Jun 2011
+-
+tags: entrepreneurship
+-
+content: 
+
+In Cat's Cradle there is a fictitious religion called Bokononism. Bokonon says, 'peculiar travel suggestions are dancing lessons from God'. For me [iTasveer](http://www.itasveer.com) amounted to one of those travel suggestions. I co-founded the company with four other friends from college - an e-commerce portal to help people order photo prints and personalised photo products online.
+
+It's only after you've attempted a start-up, all those warnings written on start-up blogs ring true. At iTasveer, the co-founding team was deeply involved in all aspects of the business. From launching the web application, to setting up vendors, logistics, business tie-ups, product development, customer support, hiring, fundraising and eventually selling the company.
+
+Along with all of these, my primary responsibility was anything to do with design. Be it the graphic design of our product templates, user experience design of our service and website, front-end engineering, the UI and implementation of our customization tool, e-mailers and marketing communication, promotional t-shirts or product ideation.
+
+While we believe that we were able to build a great service (also attested to by numerous customer testimonials), it was not a huge business success. In Jun 2011, the founders exit and we sold iTasveer.com to another company.

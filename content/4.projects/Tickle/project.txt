@@ -1,0 +1,20 @@
+title: Project Tickle
+- 
+subtitle: Communicating over a screen sucks.
+-
+date: 2009, Aug–
+-
+content: 
+Project Tickle is a 3 quarter project done at the d.school.
+
+Along with teammates David, Kevin and Christine. Here are some things we explored.
+
+Our big insights. Project Page?
+Prototypes:
+Tactoys
+Avatoy
+Snarky
+Co-Creation
+Skype Shopping
+Skype Dinner
+Tickle

@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <script type="text/javascript" src="//use.typekit.net/ovr0odw.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>@title, @name's Portfolio </title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
+    <!--<link rel="stylesheet" href="@root_path/public/docs/css/screen.css" type="text/css" media="screen"> -->
+    
+    <!--<link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.css" type="text/css" media="screen"> -->
+    <link rel="stylesheet" href="@root_path/public/docs/css/custom.css" type="text/css" media="screen">
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+      })
+    </script>
+    <style type="text/css">
+      .media-container{width: 1300px!important; border: 1px solid red;}
+      h3{margin-bottom: 0}
+      p{margin-top: 0}
+    </style>
+  </head>
+  <body>
+        
+        
+      
+      <!--:navigation-->
+        <!--@date-->
+        <!--<a href="@root_path"></a>-->
+        <div class="content">
+          <a href="@root_path">@name<!--, @profession, @email--></a>
+          <h1>@title<br/><span>@subtitle</span></h1>
+          <div class="project_outer">
+            <div class="container_inner"  style="width:10000px">
+          
+        
+
+        <!--<strong>Siblings-count:</strong>
+        @index/@siblings_count-->
+        
+          <!--this shows the next and previous links to other projects-->
+          <!--if $siblings do
+            :next-page
+            :previous-page
+          endif-->
+        
+        :media
+        @content
+
+          </div>
+        </div>
+      </div>
+      
+      <!--<p id="footer" class="col six">&copy; Copyright @name @current_year <a class="atom-rss" href="@root_path/?/feed/">RSS</a><br>
+        <em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>-->
+    
+    <script type="text/javascript" charset="utf-8">
+      document.getElementsByTagName('body')[0].className += ' js-enabled';
+    </script>
+    <script src="@root_path/public/docs/js/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
+    <!--<script src="@root_path/public/docs/js/gallery.js" type="text/javascript" charset="utf-8"></script>-->
+    <!--<script src="@root_path/public/docs/js/init-gallery.js" type="text/javascript" charset="utf-8"></script>-->
+  </body>
+</html>

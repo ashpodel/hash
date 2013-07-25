@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="//use.typekit.net/ovr0odw.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>@title, @name's Portfolio </title>
+  <!--Embed Google Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <!--JQuery CDN-->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+  <script src="@root_path/public/docs/js/jquery.tools.min.js"></script>
+  <script src="@root_path/public/docs/js/jquery.tinycarousel.min.js"></script>
+  <link rel="alternate" type="application/atom+xml" href="@root_path/?/feed/">
+  
+  <link rel="stylesheet" href="@root_path/public/docs/css/bootstrap.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="@root_path/public/docs/css/customnew.css" type="text/css" media="screen">
+  <style>
+    .nav{display: none; position: fixed; top: 0; left: 0; z-index: 50;}
+    .miniNav{height: 30px; padding: 10px 0 6px; text-align: center; width: 50px; display: block; background: rgba(0,0,0,0.7); position: fixed; z-index: 10; /*border-right:1px solid white; border-bottom: 1px solid white;*/}
+    #nav_link{}
+    #close_link{position: fixed; left: 200px; top:0px; display: none; z-index: 60;}
+  </style>
+  <script type="text/javascript">
+  $(document).ready(function(){
+        // initialize scrollable
+        //$(".scrollable").scrollable();
+        $('#nav_link').click(function(){
+          $('.overlay').fadeIn(500,function(){$('.nav').fadeIn(); $('#close_link').fadeIn(); $('#nav_link').fadeOut()});
+          return false;
+        })
+        $('#close_link').click(function(){
+          $(this).fadeOut();
+          $('.nav').fadeOut(function(){$('.overlay').fadeOut(function(){$('#nav_link').fadeIn()});});
+          return false;
+        })
+
+
+        var offset = $('.items .thumb').width(); //the amount to move in each iteration
+
+        $('.next').click(function(){
+          //Store the clicked button
+          var clickedButton = $(this);
+          //Find the correct set. Look for the GalleryBG div and then find the child div items
+          var set = $(this).parents('.galleryBG').find('.items'); 
+          //Number of items in the right set
+          var total = set.find('.thumb').length;
+          //Locate the current position of the viewport
+          var current_pos = parseInt(set.css('left')); 
+          if(!current_pos) current_pos = 0;
+          //Animate as needed
+          set.stop().animate({left:current_pos-offset}, 800, function(){
+            //If not end of set, increase index and show prev
+            if(current_pos>-(total-2)*offset){
+              clickedButton.siblings('.prev').removeClass('hidden');
+            }
+            //hide next button        
+            else{
+              clickedButton.addClass('hidden');
+            }     
+          });
+          //dont go to top of page
+          return false; 
+        });
+        $('.prev').click(function(){
+          var clickedButton = $(this);
+          //Find the correct set. Look for the GalleryBG div and then find the child div items
+          var set = $(this).parents('.galleryBG').find('.items');
+          //get the current left position of the viewport           
+          var current_pos = parseInt(set.css('left')); 
+          set.stop().animate({left:current_pos+offset}, 800, function(){
+            if(current_pos<-offset){
+              clickedButton.siblings('.next').removeClass('hidden');
+            }
+            else{
+              clickedButton.addClass('hidden');
+            }            
+          });          
+          return false;
+        });        
+  })
+  </script>
+</head>
+<body>
+<a href="#" class="miniNav" id="nav_link"><img src="@root_path/public/images/menu.png" width="25"/></a>
+<a href="#" class="miniNav" id="close_link"><img src="@root_path/public/images/close.png" width="25"/></a>
+<div class="overlay"></div>
+  <!--NAVIGATION-->
+  :navigation-new
+  <!--HEADER-->
+  if $html do
+    :html
+  endif
+  if !$html do
+    if $_header do
+      foreach $_header do
+        <div class="header">
+          <img src="@url" alt="@title" width="100%" style="max-width:1400px;">
+        </div>  
+      endforeach  
+    endif
+  endif  
+  <p>&nbsp;</p>
+
+
+  <div class="container">
+    <!--MAIN CONTENT-->
+    <div class="titles">
+    <h1>@title</h1>
+    <h2>@subtitle</h2>
+    if @date do <h5>@date</h5> endif
+  </div>
+    <div class="row">
+      <div class="span8 offset2">
+        <p>&nbsp;</p>
+        @content
+        <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+  <div class="galleryBG">
+    <a class="prev browse left hidden" href="#">&larr;</a>
+    <!-- "next page" action -->
+    <a class="next browse right" href="#">&rarr;</a>     
+    <div class="container">
+    <!--GLAMOR SLIDESHOW-->    
+      <div class="scrollable" id="scrollable"><!-- root element for scrollable -->
+        <!-- "previous page" action -->    
+        <div class="items"><!-- root element for the items -->
+         :media
+       </div>
+     </div>
+   </div>
+  </div>
+  <p>&nbsp;</p>
+  <!--BACKSTORY--> 
+  if @backstory do
+   <div class="container">
+      <div class="row">
+        <div class="span8 offset2">
+          <div style="text-align:center;"><!--NEEDED?-->
+          <h5>Making of</h5>
+          </div>
+          @backstory
+        </div>
+      </div>
+   </div>
+    <p>&nbsp;</p>
+  endif
+  <!--If process pics exist-->
+  if $_process do
+  <div class="galleryBG">
+    <a class="prev browse left hidden" href="#">&larr;</a>
+    <!-- "next page" action -->
+    <a class="next browse right" href="#">&rarr;</a>     
+    <div class="container">
+    <!--PROCESS SLIDESHOW-->    
+      <div class="scrollable" id="scrollable"><!-- root element for scrollable -->
+        <div class="items"><!-- root element for the items -->
+          foreach $_process do
+            <div class="thumb">
+              <div class="container" style="text-align:center;">
+              <img src="@url" alt="@title" height="600">
+                if @description do
+                <br/><em>@description</em>      
+              endif
+            </div>
+            </div>
+          endforeach  
+        
+      </div>    
+    </div>
+   </div>
+  </div>
+  endif
+
+   <div class="container">
+    <div class="row">
+      <div class="span4 offset4">
+        <div class="meta">  
+          if @materials do <div><h5>How</h5> <p>@materials</p></div> endif
+          if @team do <div><h5>Who</h5> <p>@team</p></div> endif
+        </div> 
+      </div>
+    </div>
+   </div>
+
+   <p>&nbsp;</p> 
+   <p>&nbsp;</p>
+
+    if $siblings do
+      :next-page
+    endif
+
+
+
+<!--WHY?-->
+<!--<script type="text/javascript" charset="utf-8">
+  document.getElementsByTagName('body')[0].className += ' js-enabled';
+</script>
+<script src="@root_path/public/docs/js/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>-->
+
+</body>
+</html>
+
+
+

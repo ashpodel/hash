@@ -1,0 +1,12 @@
+title: Bud-Delight
+- 
+subtitle: I hate entangled earbuds.
+-
+date: 2009, Aug–
+-
+content: 
+I have long pondered upon the mystery of entangled earbuds. 'BudDelight' was my attempt to create a earbud wrapper that would help remedy the situation. 
+
+Most other earbud wrappers require the task of wrapping and unwrapping earbuds, which can be a chore. BudDelight fixes one half of this problem by creating an easy way to disengage the earbuds.   
+
+This was my first attempt to create a physical product created as part of Stanford's 'Design and Manufacturing' class.

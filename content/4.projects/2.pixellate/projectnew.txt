@@ -1,0 +1,36 @@
+title: Pixellate
+-
+subtitle: A lamp inspired by pixels.
+-
+date: Mar 2012
+-
+team: Solo Project
+-
+prompt: Create an Illuminating Object. Made for Stanford Formgiving class.
+-
+content: 
+*Whenever someone asks me the material that I work with best, my answer is always 'Pixels'.*
+
+Pixellate is a lamp that represents a physical manifestation of that material. Created as part of the Stanford Formgiving class, Pixellate is made from modular pixels that can be joined at the edges. 
+
+This project also represented a rite of passage for me. My experience prior to graduate school was in digital design: web & mobile. So I had a certain reluctance when it came to creating physical products. This project finally made me realize that such boundaries needn't exist. As Massimo Vignelli said, if you can design one thing, you can design everything. Of course, you will need to invest the time to become good with any new "material", but design is a transferable skill.
+-
+backstory:
+##'Onli'ness, Inspiration and Ira Glass on Loop
+
+&nbsp;
+
+Pixellate started by creating the brand story first. Using a design method called the "onliness" statement, I first created a story about the brand and why it mattered. However, I was not happy with the initial design, there were other forms I wanted to explore. 
+
+A big part of my design process is inspiration and curation. To look at what exists in the world, saturate your visual and mental space with good examples and let them simmer. I looked at a lot of lamps and other industrial design examples, and came across the Bau Lamp, which was a key part of my design inpiration. Pixellate takes a lot of inspiration from the Bau Lamp.
+
+Meanwhile, words of Ira Glass gave me constant support and motivation.
+
+<!--Curate, Create, Communicate
+Lessons?:
+You have to think with your hands and be willing to be surprised.
+Do a lot of work.
+Themes and bridges matter.
+Look at it from a different angle.
+Fear, not flow.
+-->

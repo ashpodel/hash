@@ -1,0 +1,13 @@
+title: d.Boombox
+-
+subtitle: An mp3 player for design thinking workshops
+-
+date: Feb-Mar 2012 
+-
+content: 
+My long standing dream to build my own MP3 player was finally realized with the d.Boombox. 
+
+d.Boombox is a music player specially designed for conducting Design Thinking workshops. In such a workshop music is used to set the mood when the workshop audience is working (usually mellow or fast) and a gong is sounded to mark the end of an activity. Made using a Teensy Microcontroller and off the shelf components. 
+
+Even though MP3 players have been consumed by smartphones, I think there is still a business case for a new MP3 player. This of course was a first attempt, my bucket list includes creating another. 
+http://youtu.be/qkGyUwxg3UM

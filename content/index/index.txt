@@ -1,0 +1,18 @@
+page_description: A collection of Ñame's graphic design work
+-
+title: Home
+-
+shout: Hi, I am Ashish
+-
+content:
+*I am a digital product designer.*
+
+I recently graduated from Stanford University with an MS in Product Design. Before graduate school, I started one (and a quarter) companies in India.
+
+On the left are links to some of my work.
+
+[Resume (PDF)](?/resume) &nbsp;&nbsp; [E-mail](mailto:goel.ashish@gmail.com)
+
+
+
+

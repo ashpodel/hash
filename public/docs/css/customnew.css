@@ -1,0 +1,81 @@
+
+body{font-family:'Vollkorn', serif; color: #333; /*background: #FFF9F4*/ margin:0; padding: 0; height: 100%;
+}
+body.index{background: url('../../images/side_bg.gif') repeat-y;}
+h1, h2, h3, h5{font-family:'brandon-grotesque', 'Helvetica'}
+h1{text-transform: uppercase; color: #00A3D9; font-size: 3em; line-height: 1em; text-align: center;}
+h2{color:#666; text-transform: none; font-weight: normal; line-height: 1em; text-align: center;}
+h5{}
+
+/*====META*====*/
+.meta{margin-top: 20px; text-align: center;}
+h5{text-transform: uppercase; color: #999; padding:3px; background:#f1f1f1;}
+h5{margin-right: 10px; text-align: center; display: inline-block;}
+
+/*========SCROLLABLE==============*/
+.scrollable { /* required settings */position:relative;overflow:hidden;height:600px;}
+ 
+/*
+root element for scrollable items. Must be absolutely positioned
+and it should have a extremely large width to accommodate scrollable
+items.  it's enough that you set width and height for the root element
+and not for this element.
+*/
+.scrollable .items {/* this cannot be too large */ width:20000em; position:absolute;}
+ 
+/*
+a single item. must be floated in horizontal scrolling.  typically,
+this element is the one that *you* will style the most.
+*/
+/*========SCROLLABLE END==============*/
+
+
+.items div { float:left;}
+.items div img{height:600px;}
+
+
+/* T+L Style Nav
+.nav{position: absolute; width: 100%; padding-top:10px; height: 40px; z-index: 100}
+.nav:hover{ background: rgba(39,170,224,0.5);}
+.nav_expanded{position: absolute; display: none; top:50px; background: #f1f1f1; width: 100%; z-index: 100}
+.projects{margin: 0; padding: 0}
+.projects li{list-style: none; line-height: 2em; margin: 0; padding: 0;}
+.projects li a{text-decoration: none; padding: 15px 0; display: block;}
+.projects li a:hover{text-decoration: none; background: white; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; padding:14px 0; }
+.projects li .subtitle{text-align: center; display: block; color: #333; font-style: italic;}
+.projects li .title{display: block; color: #00A3D9;  font-size: 2.1em; text-align: center; font-family:'brandon-grotesque', 'Helvetica'; text-transform: uppercase;}
+.overlay{position:fixed; height:100%; width:100%; background:rgba(39,170,224,0.9); z-index:50; display:none} 
+*/
+
+.nav{float:left; width: 199px; background:#f1f1f1;/*#00a3d9, #e5e8e9*/ margin-right: 30px; height: 100%; border-right:1px solid #cccccc;}
+.projects{margin: 0; padding: 0}
+.projects li{list-style: none; line-height: 2em; margin: 0; padding: 0;}
+.projects li a{text-decoration: none; padding: 15px 20px; display: block; line-height: 1.3em}
+.projects li a:hover{text-decoration: none; background: white;}
+.projects li .subtitle, .next_project .subtitle{display: block; color: #333; font-style: italic; font-size: 0.9em;}
+.projects li .title, .next_project .title{display: block; color: #00A3D9;  font-size: 1.2em; font-family:'brandon-grotesque', 'Helvetica'; text-transform: uppercase;}
+
+a.logo{padding:20px 10px 25px; background: #f7f7f7; text-align: center; display: block;}
+a.logo img{width: 60px;}
+a.logo:hover{background: white}
+
+.overlay{position:fixed; height:100%; width:100%; background:rgba(39,170,224,0.9); z-index:50; display:none} 
+
+
+
+.galleryBG{background:#f1f1f1; position: relative;}
+
+a.browse{position: absolute; display:block; background: #ccc; color: white; text-decoration: none; padding: 12px 0 8px 0; font-size: 2em; width:50px; text-align: center;}
+a.browse:hover{text-decoration: none; color: white; background: #333;}
+a.browse:down{text-decoration: none; color: white; background: #333;}
+.prev, .prev2{top:300px; left:0px; z-index: 5;}
+.next, .next2{top:300px; right:0px; z-index: 5;}
+.img_title{position: absolute; bottom:0; width: 100%; text-align: center; font-family:'brandon-grotesque', 'Helvetica'; color: #f1f1f1; text-transform: uppercase; font-size: 0.8em;}
+.img_title span{display: inline-block; padding: 3px 5px; background:rgba(0,0,0,0.2);}
+.browse.hidden{display: none;}
+.header{width:100%; height:480px; overflow:hidden; text-align:center;}
+.titles{text-align: center;}
+.next_project{padding: 40px 0 80px 0; text-align: center;}
+.next_project a{display: inline-block; opacity: 0.7; padding: 40px 0 80px 0; text-align: center;}
+.next_project .thumb{width: 400px; height: 100px; float: left;}
+.next_project a:hover{text-decoration: none; opacity: 1;}

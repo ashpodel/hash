@@ -1,0 +1,47 @@
+page_description: A collection of Ñame's graphic design work
+-
+title: Ashish Goel
+-
+subtitle: Entrepreneur and Interaction Designer.
+-
+content:
+##CURRENTLY
+###MS Product Design
+Stanford University
+###Teaching Assistant
+Prototyping Interactive Systems with Prof. Wendy Mackay, Design &amp; Business Factors with Prof. Bill Burnett, Human Values and Innovation in Design with Prof. David Kelley, Good Products Bad Products with Prof. David Beach, Stanford: Redefine the way we live and learn with Prof. David Kelley, Prof. Jon Feiber, Scott Doorley and Carissa Carter
+##PREVIOUSLY
+###Experience Design Intern, Jun-Sep 2012
+Crispin Porter &amp; Bogusky  
+Worked on clients like Windows Phone, Arby's, Dominos and internal projects. Worked ranged from product and brand strategy, brainstorming, experience prototyping and UX wireframing. 
+###Head of Product, Feb-May 2011
+Zomato.com  
+Responsible for the user experience, interface design and managing an internal team to develop Zomato’s applications for iOS, Blackberry, Symbian 40 and Playbook.
+###Startup Evangelist, Jul-Sep 2010
+Center for Innovation, Incubation and Entrepreneurship at IIM Ahmedabad
+###Co-founder and Creative Head, Apr 2005-May 2011
+iTasveer.com  
+One of four co-founders. Primarily responsible for the user experience and user interface design, product development and marketing. Also spearheaded the sales effort that led to
+an acquisition in August 2011.  
+###B. Tech in Biochemical Engineering
+Indian Institute of Technology Delhi
+
+<!--###Consultant
+hashDesign-->
+##SKILLS
+### UX Design
+Product Conceptualization, User Flows and Wireframing, Interactive Prototyping, User Testing (?)
+### Design Process
+Ethnography & Needfinding
+Process Management
+Leading Brainstorms and Ideation
+Synthesis
+### Front-End Design
+Adobe Creative Suite
+HTML, CSS, jQuery
+Processing
+PHP & MySQL
+Arduino
+##FUN
+Theatre 
+Salsa

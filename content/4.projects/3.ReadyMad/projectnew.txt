@@ -1,0 +1,30 @@
+title: ReadyMad
+-
+subtitle: A marketplace for Indian kitsch
+-
+date: Mar-Jun 2011 
+-
+content: 
+ReadyMad emerged from my love of all things Indian pop culture. There are many companies in India has make 'India inspired' home and lifestyle products (like Happily Unmarried and Chumbak) that sell their products through physical aggregator stores or lone brand stores. I felt that there was no compelling online platform for selling these kind of products.
+
+ReadyMad was a first iteration of such a platform. A bit like the Etsy of India, ReadyMad was to bring a curated selection of products and new ways of product browsing and discovery.
+
+However, ReadyMad was launched as a sister business to iTasveer.com and could have been spin off as a separate brand, but was sold as part of iTasveer.
+-
+backstory:
+###Not now to then when? 
+Since we were focused exclusively on photo products, this as a side project always seemed like a diversion. It was one of those ideas that I had filed away as something to be done in the future. But when our company had no exit but had to be sold, I had to create alternatives to shutting it down. 
+
+And so, ReadyMad started. I was amazed at how quickly you can get things together if you step out of your own way. It took all of two weeks to reach out to vendors, who were willing to work with us because of iTasveer's brand, and create the front-end using the existing e-commerce and logistics architecture. A favorite part for me was creating a user experience that reflected the personality of the website and this video was made to capture this:
+
+http://www.youtube.com/watch?v=btiQak0MMoQ
+
+The project was launched as a side project to iTasveer.com. Since this was more of a personal project, I was responsible for everything from setting up vendor relationships, designing and coding the web pages to initial launch and marketing. Also, because it was built on iTasveer's e-commerce and logistics infrastructure, I could do all of that in a mere 10 days.
+
+The website still exists, but is currently owned and maintained by a different set of owners.
+
+Learnings
+
+Don't reinvent the wheel
+
+It takes shorter than you think it does

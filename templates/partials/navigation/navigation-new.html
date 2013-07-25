@@ -1,0 +1,30 @@
+<!--  foreach $root do
+      <a href="@url">@title</a>
+      :children
+  endforeach
+-->
+<div class="nav">
+		<a href="@root_path" class="logo"><img src="@root_path/public/images/logo.png"/></a>
+    <!--<a href="#" id="nav_link"  style="float:right;"><img src="@root_path/public/images/menu.png" width="30"/></a>-->
+<div class="nav_expanded">
+  :category-lists
+</div>  
+	</div>
+
+</div>
+
+
+<!--OLD SIDENAV STYLE-->
+<!--<div class="sidenav">
+<p><a href="@root_path"><img src="@root_path/public/images/icon.png"/></a></p>
+<h3>PROJECTS</h3>
+foreach $root do
+  if $children do
+      foreach $children do
+            <a href="@url">
+            @title</a><br/>
+      endforeach
+  endif
+endforeach
+</div>-->
+
